@@ -1,13 +1,13 @@
-title: wu-kan # 站点标题
+title: Luvzy-Site|<p>爱自由之站</p> # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
-  SYSU超算17级在读<br/>
-  水野爱<br/>
-  HPC<br/>
-  田宫例四驱车<br/>
-  <a href="mailto:i@wu-kan.cn">
+  爱探险的老司机<br/>
+  <br/>
+  YTZ<br/>
+    LUVZY<br/>
+  <a href="luvzy.site">
     <i class="fas fa-envelope"></i>
   </a>
-  <a href="https://github.com/wu-kan">
+  <a href="https://github.com/jack9833">
     <i class="fab fa-github"></i>
   </a>
   <a href="https://codeforces.com/profile/WuK">
@@ -28,7 +28,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     marginwidth="0"
     marginheight="0"
   ></iframe>
-url: https://wu-kan.cn # 你的域名，例如 https://wu-kan.github.io
+url: https://luvzy.site # 你的域名，例如 https://wu-kan.github.io
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
 defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/front-matter-defaults/>功能进行配置
@@ -61,12 +61,12 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # 网站小图标，可换成你自己的图片，改href中的部分即可
               <link
                 rel="apple-touch-icon-precomposed"
-                href="https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320"
+                href="https://q2.qlogo.cn/headimg_dl?dst_uin=481649647&spec=640"
               />
               <link
                 rel="shortcut
                 icon"
-                href="https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=32"
+                href="https://q2.qlogo.cn/headimg_dl?dst_uin=481649647&spec=640"
               />
             - | # 来自lanyon的页面样式，不要改
               <link
@@ -377,7 +377,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     document.getElementById("run_time_hour"),
                     document.getElementById("run_time_minute"),
                     document.getElementById("run_time_second"),
-                    "10/04/2017 11:03:56")// 这是我第一篇CSDN博客的时间
+                    "01/16/2021 21:00:56")// 这是我第一篇CSDN博客的时间
                   </script>
                 </div>
               - | # 不蒜子页面统计，看不懂可不改
@@ -418,19 +418,19 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   2017-2021 WuK
                 </div>
               - | # 我的备案信息，请你的网站删掉这一项。互联网非法外之地！
-                <div>
-                  <i class="fas fa-info-circle fa-fw"></i>
-                  <a href="http://beian.miit.gov.cn">
-                    粤ICP备 20024947号
-                  </a>
-                </div>
-              - | # 公安网备信息
-                <div>
-                  <img src="https://i.loli.net/2021/03/17/Y47tDZTrcy2xwRa.png" class="fa-fw"></img>
-                  <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=34070202000407">
-                    皖公网安备 34070202000407号
-                  </a>
-                </div>
+#                 <div>
+#                   <i class="fas fa-info-circle fa-fw"></i>
+#                   <a href="http://beian.miit.gov.cn">
+#                     粤ICP备 []号
+#                   </a>
+#                 </div>
+#               - | # 公安网备信息
+#                 <div>
+#                   <img src="https://i.loli.net/2021/03/17/Y47tDZTrcy2xwRa.png" class="fa-fw"></img>
+#                   <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=[]">
+#                     皖公网安备 []号
+#                   </a>
+#                 </div>
             wordcount: # 全站字数统计
               enable: false # 本地调试时建议关闭，非常影响站点生成速度（所需时间与博文数量的平方成正比）
               prepend: <i class="fas fa-user-edit fa-fw"></i>
