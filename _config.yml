@@ -7,17 +7,14 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   <a href="luvzy.site">
     <i class="fas fa-envelope"></i>
   </a>
-  <a href="https://github.com/jack9833">
+  <a href="https://github.com/jackyang9833">
     <i class="fab fa-github"></i>
   </a>
-  <a href="https://codeforces.com/profile/WuK">
-    <i class="fas fa-chart-bar"></i>
+  <a href="https://twitter.com/zeluvyan">
+    <i class="fas fa-twitter"></i>
   </a>
-  <a href="https://vjudge.net/user/WuK">
-    <i class="fas fa-smile"></i>
-  </a>
-  <a href="https://www.zhihu.com/people/wu.kan/activities">
-    <i class="fab fa-zhihu"></i>
+  <a href="https://www.facebook.com/profile.php?id=100047172410726">
+    <i class="fas fa-facebook"></i>
   </a>
   <iframe
     src="https://music.163.com/outchain/player?type=0&id=155059595&auto=0&height=32"
@@ -64,8 +61,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 href="https://q2.qlogo.cn/headimg_dl?dst_uin=481649647&spec=640"
               />
               <link
-                rel="shortcut
-                icon"
+                rel="shortcut icon"
                 href="https://q2.qlogo.cn/headimg_dl?dst_uin=481649647&spec=640"
               />
             - | # 来自lanyon的页面样式，不要改
@@ -415,7 +411,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               - | # Copyright声明
                 <div>
                   <i class="fas fa-copyright fa-fw"></i>
-                  2017-2021 WuK
+                  2021&copy;LUVZY-SITE<br/>Theme by Wukan.
                 </div>
               - | # 我的备案信息，请你的网站删掉这一项。互联网非法外之地！
 #                 <div>
@@ -568,8 +564,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 for(let x of document.getElementsByClassName("v"))
                   new Valine({
                     "el": x,
-                    "appId": "9hABRddSuEkTgqLrt1VSK5B1-gzGzoHsz",
-                    "appKey": "NJ7RwmgrxsF7KDzlqU7YewlL",
+                    "appId": "0VEwbP66CiG0vLJHhTr02fRG-gzGzoHsz",
+                    "appKey": "tMH8cUqIOHyQV01b1sz7oT8h",
                     "placeholder": "在这里评论吧！填写邮箱可以获得 Gravatar 头像和回复通知哦",
                     "requiredFields": ["nick","mail"],
                     "visitor": true,
@@ -629,8 +625,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
           append_to_head:
             - | # 需要配置的变量见<https://merger.justhx.com/cn/docs/configure>
               <script>
-                var myname = "WuK";
-                var profile = "i@wu-kan.cn";
+                var myname = "LUVZY";
+                var profile = "luvzy.site";
                 var usage = "payment";
                 var wechat = "wxp://f2f0BhUoIC_9gex7-tC2PRvVuoA486mK5WyC";
                 var tenpay = "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQ77zFwQMY-6u57gU%3D_xxx_sign&u=942759535&n=%E8%94%9A";
