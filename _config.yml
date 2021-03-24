@@ -24,24 +24,6 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     marginwidth="0"
     marginheight="0"
   ></div>
-  <script>
-      const ap8 = new APlayer({
-			element: document.getElementById('player8'),
-			mutex: true,
-			theme: '#ad7a86',
-			order: 'random',
-			lrcType: 3,
-			fixed: true,
-		});
-		$.ajax({
-			url: 'https://api.i-meto.com/meting/api?server=netease&type=playlist&id=470618814',
-			success: function(list) {
-			    ap8.list.add(list);
-			}
-		});
-  </script>
-  
-  
 url: https://luvzy.site # 你的域名，例如 https://wu-kan.github.io
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
@@ -96,6 +78,26 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 rel="stylesheet"
                 href="https://cdn.jsdelivr.net/gh/Dreamer-Paul/Pio@2.4/static/pio.min.css"
               />
+	      <link rel="stylesheet" href="assets/css/APlayer.min.css">
+	       <script src="assets/js/APlayer.min.js"></script>
+	    <script src="assets/js/jquery.min.js"></script>
+	      <script>
+      const ap8 = new APlayer({
+			element: document.getElementById('player8'),
+			mutex: true,
+			theme: '#ad7a86',
+			order: 'random',
+			lrcType: 3,
+			fixed: true,
+		});
+		$.ajax({
+			url: 'https://api.i-meto.com/meting/api?server=netease&type=playlist&id=470618814',
+			success: function(list) {
+			    ap8.list.add(list);
+			}
+		});
+  </script>
+	      
               <script
                 async="async"
                 src="https://cdn.jsdelivr.net/combine/gh/Dreamer-Paul/Pio@2.4/static/l2d.min.js,gh/Dreamer-Paul/Pio@2.4/static/pio.min.js"
