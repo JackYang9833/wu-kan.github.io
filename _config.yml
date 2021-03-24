@@ -16,15 +16,32 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   <a href="https://www.facebook.com/profile.php?id=100047172410726">
     <i class="fab fa-facebook"></i>
   </a>
-  <iframe
-    src="https://y.qq.com/n/yqq/playlist/2811404332.html#stat=y_new.profile.create_playlist.love.click&dirid=201"
+  <div id="player8" class="aplayer" 
     width=100%
     height=52
     frameborder="no"
     border="0"
     marginwidth="0"
     marginheight="0"
-  ></iframe>
+  ></div>
+  <script>
+      const ap8 = new APlayer({
+			element: document.getElementById('player8'),
+			mutex: true,
+			theme: '#ad7a86',
+			order: 'random',
+			lrcType: 3,
+			fixed: true,
+		});
+		$.ajax({
+			url: 'https://api.i-meto.com/meting/api?server=netease&type=playlist&id=470618814',
+			success: function(list) {
+			    ap8.list.add(list);
+			}
+		});
+  </script>
+  
+  
 url: https://luvzy.site # 你的域名，例如 https://wu-kan.github.io
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
@@ -651,6 +668,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 http-equiv="Content-Security-Policy"
                 content="upgrade-insecure-requests"
               />
+              <meta name="theme-color" content="#212121">
             - | # merger的页面样式
               <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.26.1/assets/styles/spectre.css/spectre-modified.min.css,gh/hifocus/merger@0.26.1/assets/styles/style.min.css">
               <script defer="defer" src="https://cdn.jsdelivr.net/combine/npm/jquery@3.5.1"></script>
