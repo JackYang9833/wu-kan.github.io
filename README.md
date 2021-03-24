@@ -1,38 +1,36 @@
-# 星合の空
+# 爱自由之站
 
-欢迎访问我的个人主页！下面向你介绍一下我自己吧\~
+Welcome LUVZY-SITE!Let's take a look and you might find something you interested in it\~
 
-[Resume](https://wu-kan.github.io/resume/resume.pdf)
+[Theme by WuKan](https://wu-kan.github.io/resume/resume.pdf)
 
 <!-- .slide -->
 
 ## Contact
 
-- Address: **Sun Yat-sen University - 132 Waihuan East Rd. - Guangzhou, China**
-- Phone: **+86 18756280097**
-- Site: **<https://wu-kan.cn>**
+- Address: **Anshun Guizhou, China**
+- Phone: **+86 18722702625**
+- Site: **<https://luvzy.site>**
 
 <!-- .slide vertical=true -->
 
 - E-mail:
-  - **[i@wu-kan.cn](mailto:i@wu-kan.cn)**
-  - **[wukan3@mail2.sysu.edu.cn](mailto:wukan3@mail2.sysu.edu.cn)**
-- WeChat: **Wu-\_-Kan**
+  - **[yztluvzy@gmail.com](mailto:My Gmail)**
+  - **[481649647@qq.com](mailto:QQMail)**
+- WeChat: **y18702625**
 
 <!-- .slide -->
 
-## Education
+## About
 
-<!-- .slide vertical=true -->
-
-School of Data and Computer Science, Sun Yat-sen University, Guangzhou
-
+<!-- .slide vertical=true -
+g
 - Bachelor of Computer Science (Supercomputer Class), Sept. 2017 - Jul. 2021 (expected)
   - Principle of Supercomputer
   - Parallel and Distributed Computing
   - High Performance Computing
   - Multicore Computing
-
+-->
 <!-- .slide -->
 
 ## Projects
