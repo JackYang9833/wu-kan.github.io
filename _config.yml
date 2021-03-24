@@ -81,7 +81,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
 			theme: '#ad7a86',
 			order: 'random',
 			lrcType: 3,
-			fixed: true,
+			fixed: false,
 		});
 		$.ajax({
 			url: 'https://api.i-meto.com/meting/api?server=netease&type=playlist&id=470618814',
