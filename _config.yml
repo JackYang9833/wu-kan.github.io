@@ -11,13 +11,13 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     <i class="fab fa-github"></i>
   </a>
   <a href="https://twitter.com/zeluvyan">
-    <i class="fas fa-twitter"></i>
+    <i class="fab fa-twitter"></i>
   </a>
   <a href="https://www.facebook.com/profile.php?id=100047172410726">
-    <i class="fas fa-facebook"></i>
+    <i class="fab fa-facebook"></i>
   </a>
   <iframe
-    src="https://music.163.com/outchain/player?type=0&id=155059595&auto=0&height=32"
+    src="https://y.qq.com/n/yqq/playlist/2811404332.html#stat=y_new.profile.create_playlist.love.click&dirid=201"
     width=100%
     height=52
     frameborder="no"
