@@ -15,8 +15,8 @@ Welcome LUVZY-SITE!Let's take a look and you might find something you interested
 <!-- .slide vertical=true -->
 
 - E-mail:
-  - **[yztluvzy@gmail.com](mailto:My Gmail)**
-  - **[481649647@qq.com](mailto:QQMail)**
+  - **[Google mail](mailto:yztluvzy@gmail.com)**
+  - **[QQ mail](mailto:481649647@qq.com)**
 - WeChat: **y18702625**
 
 <!-- .slide -->
