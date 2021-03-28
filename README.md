@@ -1,6 +1,6 @@
 <b><h1 style="background:#212121">爱自由</h1><h1>之站</h1></b>
 
-Welcome LUVZY-SITE!Let's take a look and you might find something you interested in it\~
+Welcome to LUVZY-SITE!Let's take a look and you might find something we interested here!\~
 
 [Theme by WuKan](https://wu-kan.github.io/resume/resume.pdf)
 
