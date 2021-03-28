@@ -23,7 +23,8 @@ Welcome to LUVZY-SITE!Let's take a look and you might find something we interest
 <!-- .slide -->
 
 ## About
-
+- 這是個小破站
+- This is a micro-site
 <!-- .slide vertical=true -
 g
 - Bachelor of Computer Science (Supercomputer Class), Sept. 2017 - Jul. 2021 (expected)
