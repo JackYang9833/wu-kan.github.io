@@ -1,4 +1,5 @@
-<b><h1 style="background:#212121">爱自由</h1><h1>之站</h1></b>
+# 爱自由之站
+  ## ♥ZY.SITE♥
 
 Welcome to LUVZY-SITE!Let's take a look and you might find something we interested here!\~
 
